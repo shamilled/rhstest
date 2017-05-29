@@ -2,8 +2,10 @@
     <body>
         <?php
             if(isset($_POST['submit'])) {
+                
+                $recipient="yourmailid@domain.com";
             
-                $to = "shamilled@gmail.com";
+                //$to = "shamilled@gmail.com";
                 $email = $_POST['email'];
                 $name = $_POST['name'];
                 $subject = "New RHS Inquiry";
